@@ -1,0 +1,113 @@
+.reader-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.reader-controls {
+    position: fixed;
+    top: 80px;
+    left: 20px;
+    background: rgba(26, 26, 46, 0.9);
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 1000;
+}
+
+.reader-controls button {
+    background: #ff6b6b;
+    color: white;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: background 0.3s;
+}
+
+.reader-controls button:hover {
+    background: #ff5252;
+}
+
+.reader-content {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.reader-content img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.reader-nav-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+    padding: 20px;
+    background: #1a1a2e;
+    border-radius: 10px;
+}
+
+.btn-nav {
+    background: #2d2d4d;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: background 0.3s;
+}
+
+.btn-nav:hover {
+    background: #ff6b6b;
+}
+
+.chapter-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 1;
+    margin-right: 20px;
+}
+
+.chapter-info h3 {
+    color: #ffd166;
+}
+
+.chapter-controls {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.btn-chapter {
+    background: #2d2d4d;
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+#chapterSelect {
+    background: #0f0f1a;
+    color: white;
+    border: 2px solid #2d2d4d;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 1rem;
+}
